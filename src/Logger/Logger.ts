@@ -48,10 +48,7 @@ export default class Logger {
     }
 
 
-    setPrefix(prefix: string) {
-        if (prefix.trim() === '') {
-            return;
-        }
+    setPrefix(prefix: string | undefined) {
         this.prefix = prefix;
     }
     
