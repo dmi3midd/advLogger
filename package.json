@@ -1,0 +1,38 @@
+{
+  "name": "advlogger",
+  "version": "1.0.0",
+  "description": "advanced logger",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmi3midd/advLogger.git"
+  },
+  "keywords": [
+    "logger",
+    "logs",
+    "TelegramAPI",
+    "files",
+    "console"
+  ],
+  "author": "dmi3mid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmi3midd/advLogger/issues"
+  },
+  "homepage": "https://github.com/dmi3midd/advLogger#readme",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^24.0.13",
+    "dotenv": "^17.2.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

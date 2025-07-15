@@ -1,0 +1,1 @@
+export type LogFunc = (data: string) => Promise<void>;

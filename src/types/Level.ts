@@ -1,0 +1,1 @@
+export type Level = 'START' | 'END' | 'SUCCESS' | 'FAILURE' | 'INFO' | 'WARN' | 'ERROR' | 'DEBUG' | 'EVENT';
